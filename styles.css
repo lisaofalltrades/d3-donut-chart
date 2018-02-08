@@ -1,0 +1,59 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 5%;
+}
+footer {
+  text-align: right;
+}
+.title-holder {
+  text-align: center;
+}
+.title {
+  font-family: 'Pacifico', cursive;
+}
+.font {
+  font-size: 20px;
+}
+
+/* legend */
+.legend {
+  font-size: 14px;
+}
+rect {
+  cursor: pointer;
+  stroke-width: 2;
+}
+rect.disabled {
+  fill: transparent !important;
+}
+
+/* chart */
+#chart {
+  height: 800px;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  width: 800px;
+}
+
+/* tooltip */
+.tooltip {
+  background: #eee;
+  box-shadow: 0 0 5px #999999;
+  color: #333;
+  display: none;
+  font-size: 18px;
+  left: 130px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  top: 95px;
+  width: 80px;
+  z-index: 10;
+}
+
+.footer {
+  padding-top: 50px;
+  text-align: center;
+  list-style-type: none;
+}
