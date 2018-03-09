@@ -1,6 +1,6 @@
 # D3.js Donut Chart
 
-![alt text](images/donut-mid-legend.png "donut chart w/ legend in the center")
+![alt text](donut_legend_wedding_budget.gif "donut chart w/ interative legend")
 
 - Chart is calculated with in page jSON
 - mouse hover will display label, count and percentages
